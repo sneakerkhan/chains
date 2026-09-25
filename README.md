@@ -1,6 +1,8 @@
 # chains
 
-The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
+Chain metadata catalog. Each network is one JSON file in `_data/chains`, named with its [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) id.
+
+Icons live in `_data/icons`. An L2 or shard can point at a parent chain. A `status` field marks networks that are not live.
 
 ## Example:
 
